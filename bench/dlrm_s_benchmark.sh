@@ -17,8 +17,8 @@ gpu=1
 pt=1
 c2=1
 
-ncores=28 #12 #6
-nsockets="0"
+ncores=40 #12 #6
+nsockets="0-1"
 
 ngpus="1 2 4 8"
 

@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS –N dlrm-bm
+#PBS -q normal
+#PBS -l select=1:ncpus=40:ngpus=8
+#PBS -l walltime=24:00:00
+#PBS -P 50000019
+
+singularity exec --nv ~/scratch/viscent/dlrm-ucc-sb.sif
