@@ -7,4 +7,4 @@
 #PBS -P 50000019
 
 module load singularity
-singularity exec --nv ~/scratch/viscent/dlrm-ucc-sb.sif
+singularity exec --nv ~/scratch/viscent/dlrm-ucc-sb.sif source ~/zhangyq/dlrm/benchScript.sh
