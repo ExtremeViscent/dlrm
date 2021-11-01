@@ -12,7 +12,7 @@ else
 fi
 #echo $dlrm_extra_option
 
-cpu=1
+cpu=0
 gpu=1
 pt=1
 c2=1
@@ -57,6 +57,7 @@ _args=" --num-batches="${nbatches}\
 " --print-freq="${print_freq}\
 " --print-time"\
 " --enable-profiling "
+"--dist-backend=ucc"
 
 c2_args=" --caffe2-net-type="${c2_net}
 
