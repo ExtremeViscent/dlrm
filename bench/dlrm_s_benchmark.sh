@@ -54,7 +54,7 @@ _args=" --num-batches="${nbatches}\
 " --num-indices-per-lookup="${nindices}\
 " --arch-interaction-op="${interaction}\
 " --numpy-rand-seed="${rand_seed}\
-"--dist-backend=ucc"\
+" --dist-backend=ucc"\
 " --print-freq="${print_freq}\
 " --print-time"\
 " --enable-profiling "
