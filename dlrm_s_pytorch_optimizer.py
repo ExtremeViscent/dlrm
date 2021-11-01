@@ -61,7 +61,7 @@ import datetime
 import json
 import sys
 import time
-from ppuda.ghn.nn import GHN2
+# from ppuda.ghn.nn import GHN2
 # onnx
 # The onnx import causes deprecation warnings every time workers
 # are spawned during testing. So, we filter out those warnings.
