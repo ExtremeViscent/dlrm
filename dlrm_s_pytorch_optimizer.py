@@ -67,7 +67,7 @@ from ppuda.ghn.nn import GHN2
 # are spawned during testing. So, we filter out those warnings.
 import warnings
 
-from ppuda.utils.utils import adjust_net
+# from ppuda.utils.utils import adjust_net
 
 # data generation
 import dlrm_data_pytorch as dp
