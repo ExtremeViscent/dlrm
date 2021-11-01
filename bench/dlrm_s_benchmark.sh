@@ -54,10 +54,11 @@ _args=" --num-batches="${nbatches}\
 " --num-indices-per-lookup="${nindices}\
 " --arch-interaction-op="${interaction}\
 " --numpy-rand-seed="${rand_seed}\
+"--dist-backend=ucc"\
 " --print-freq="${print_freq}\
 " --print-time"\
 " --enable-profiling "
-"--dist-backend=ucc"
+
 
 c2_args=" --caffe2-net-type="${c2_net}
 
